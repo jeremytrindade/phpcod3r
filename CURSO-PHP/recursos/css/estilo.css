@@ -50,6 +50,10 @@ grid-template-areas:
 .rodape {
     grid-area: rodape;
     background-color: #fff;
-/*     position: sticky; serviria para bloquear em baixo, mas não é preciso
-    bottom: 0px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444;
 }
