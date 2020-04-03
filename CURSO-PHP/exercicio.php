@@ -20,6 +20,11 @@
     
     <main class="principal">
         <div class="conteudo">
+            <?php
+                /* include($_GET['dir'] . "/" . $_GET['file'] . ".php"); */
+                // __DIR__ variavel que serve para ir buscar o caminho absoluto
+                include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); // mais simples
+            ?>
         </div>
     </main>
     <footer class="rodape">
