@@ -29,3 +29,10 @@ if ($pos === false) {
     echo "A string '$findme' foi encontrada na string '$mystring'";
     echo " e existe na posição $pos";
 }
+
+echo "<br>";
+// Resposta dele:
+echo strpos('!AbcaBcabc', 'abc') . '<br>';
+echo stripos('!AbcaBcabc', 'abc') . '<br>'; // sendo esta a alinea certa.
+
+echo strpos(strtolower('!AbcaBcabc'), strtolower('ABC'));
